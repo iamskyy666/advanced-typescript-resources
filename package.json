@@ -1,0 +1,26 @@
+{
+  "name": "typescript-advance",
+  "version": "1.0.0",
+  "description": "Advanced Typescript for AI-based and advanced-projects",
+  "main": "index.js",
+  "scripts": {
+  "build": "tsc -p tsconfig.json",
+  "dev": "tsx watch src/index.ts",
+  "start": "tsx src/index.ts"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "@types/node":"^26.1.1",
+    "tsx":"^4.23.1"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
+}
