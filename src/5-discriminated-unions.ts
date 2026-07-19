@@ -37,11 +37,11 @@ const product1: ProductState = {
   price: 67,
 };
 
-const product2: ProductState = {
- status: "outOfStock",
-  name: "name2",
-  restoreDate: "67",
-};
+// const product2: ProductState = {
+//  status: "outOfStock",
+//   name: "name2",
+//   restoreDate: "67",
+// };
 
 type abc = {
   status: "outOfStock" | "available" | "discontinued";
